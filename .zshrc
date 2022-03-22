@@ -23,6 +23,13 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/gideonw/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+
 # Personal profile
 source ~/.files/env.sh
 source ~/.files/aliases.sh
@@ -42,14 +49,6 @@ bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
 export HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND=""
 export HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_NOT_FOUND="bg=red,bold"
-
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/gideonw/.zshrc'
-
-autoload -Uz compinit
-compinit
-# End of lines added by compinstall
-
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
