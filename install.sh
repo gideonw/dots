@@ -20,7 +20,7 @@ ln -s ~/dots/.files/aliases.sh ~/.files/aliases.sh
 if [ -f ~/.files/zsh-config.zsh ]; then
   mv ~/.files/zsh-config.zsh ~/.files/zsh-config.zsh_bak$(date -Iminutes)
 fi
-ln -s ~/dots/.files/zsh-config.sh ~/.files/zsh-config.zsh
+ln -s ~/dots/.files/zsh-config.zsh ~/.files/zsh-config.zsh
 
 # download plugins
 if [ -d ~/.zsh/zsh-autosuggestions ]; then
