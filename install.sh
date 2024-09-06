@@ -8,17 +8,17 @@ fi
 
 #  Link all the files
 if [ -f ~/.files/env.sh ]; then
-  mv ~/.files/env.sh ~/.files/env.sh_bak$(`date -Iminutes`)
+  mv ~/.files/env.sh ~/.files/env.sh_bak$(date -Iminutes)
 fi
 ln -s ~/dots/.files/env.sh ~/.files/env.sh
 
 if [ -f ~/.files/aliases.sh ]; then
-  mv ~/.files/aliases.sh ~/.files/aliases.sh_bak$(`date -Iminutes`)
+  mv ~/.files/aliases.sh ~/.files/aliases.sh_bak$(date -Iminutes)
 fi
 ln -s ~/dots/.files/aliases.sh ~/.files/aliases.sh
 
 if [ -f ~/.files/zsh-config.sh ]; then
-  mv ~/.files/zsh-config.sh ~/.files/zsh-config.sh_bak$(`date -Iminutes`)
+  mv ~/.files/zsh-config.sh ~/.files/zsh-config.sh_bak$(date -Iminutes)
 fi
 ln -s ~/dots/.files/zsh-config.sh ~/.files/zsh-config.sh
 
@@ -49,12 +49,12 @@ fi
 
 # Install p10k.sh
 if [ -f ~/.p10k.sh ]; then
-  mv ~/.p10k.sh ~/.p10k.sh_bak$(`date -Iminutes`)
+  mv ~/.p10k.sh ~/.p10k.sh_bak$(date -Iminutes)
 fi
 ln -s ~/dots/.p10k.sh ~/.p10k.sh
 
 # Install zshrc
 if [ -f ~/.zshrc ]; then
-  mv ~/.zshrc ~/.zshrc_bak$(`date -Iminutes`)
+  mv ~/.zshrc ~/.zshrc_bak$(date -Iminutes)
 fi
 ln -s ~/dots/.zshrc ~/.zshrc
