@@ -6,5 +6,5 @@ alias k='kubectl'
 alias kctx='kubectl ctx'
 alias kns='kubectl ns'
 
-
+#wsl
 alias cdwp="cd /mnt/c/Users/Gideon/projects"
