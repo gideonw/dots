@@ -48,10 +48,10 @@ else
 fi
 
 # Install p10k.sh
-if [ -f ~/.p10k.sh ]; then
-  mv ~/.p10k.sh ~/.p10k.sh_bak$(date -Iminutes)
+if [ -f ~/.p10k.zsh ]; then
+  mv ~/.p10k.zsh ~/.p10k.zsh_bak$(date -Iminutes)
 fi
-ln -s ~/dots/.p10k.sh ~/.p10k.sh
+ln -s ~/dots/.p10k.zsh ~/.p10k.zsh
 
 # Install zshrc
 if [ -f ~/.zshrc ]; then
