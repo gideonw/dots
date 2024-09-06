@@ -17,10 +17,10 @@ if [ -f ~/.files/aliases.sh ]; then
 fi
 ln -s ~/dots/.files/aliases.sh ~/.files/aliases.sh
 
-if [ -f ~/.files/zsh-config.sh ]; then
-  mv ~/.files/zsh-config.sh ~/.files/zsh-config.sh_bak$(date -Iminutes)
+if [ -f ~/.files/zsh-config.zsh ]; then
+  mv ~/.files/zsh-config.zsh ~/.files/zsh-config.zsh_bak$(date -Iminutes)
 fi
-ln -s ~/dots/.files/zsh-config.sh ~/.files/zsh-config.sh
+ln -s ~/dots/.files/zsh-config.sh ~/.files/zsh-config.zsh
 
 # download plugins
 if [ -d ~/.zsh/zsh-autosuggestions ]; then

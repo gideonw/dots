@@ -14,5 +14,5 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # Personal profile
 source ~/.files/env.sh
 source ~/.files/aliases.sh
-source ~/.files/zsh-config.sh
+source ~/.files/zsh-config.zsh
 
