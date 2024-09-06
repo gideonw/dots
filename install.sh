@@ -6,6 +6,8 @@ else
   git clone git@github.com:gideonw/dots.git ~/dots
 fi
 
+mkdir -p ~/.files
+
 #  Link all the files
 if [ -f ~/.files/env.sh ]; then
   mv ~/.files/env.sh ~/.files/env.sh_bak$(date -Iminutes)
