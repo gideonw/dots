@@ -3,7 +3,7 @@
 if [ -d ~/dots ]; then
   cd ~/dots && git pull
 else
-  git clone git@github.com:gideonw/dots.git ~/dots
+  git clone https://github.com/gideonw/dots.git ~/dots
 fi
 
 mkdir -p ~/.files
