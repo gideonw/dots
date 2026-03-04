@@ -6,5 +6,7 @@ alias k='kubectl'
 alias kctx='kubectl ctx'
 alias kns='kubectl ns'
 
+alias python='python3'
+
 #wsl
 alias cdwp="cd /mnt/c/Users/Gideon/projects"
