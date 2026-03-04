@@ -8,6 +8,7 @@ export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 export PATH=$PATH:$HOME/.linkerd2/bin
 export PATH="$HOME/.tfenv/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH=~/.npm-global/bin:$PATH
 
 # Windows/WSL Shared Cert
 export CAROOT=/mnt/c/Users/Gideon/AppData/Local/mkcert
@@ -30,3 +31,9 @@ export LESS_TERMCAP_se=$'\E[0m'
 export LESS_TERMCAP_so=$'\E[01;44;33m'
 export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[01;32m'
+
+GOPRIVATE="github.com/zenful-ai/*|github.com/gideonw/*"
+GONOSUMDB="github.com/zenful-ai/*|github.com/gideonw/*"
+GONOPROXY="github.com/zenful-ai/*|github.com/gideonw/*"
+
+source <(fzf --zsh)
