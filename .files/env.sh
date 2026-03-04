@@ -36,4 +36,6 @@ GOPRIVATE="github.com/zenful-ai/*|github.com/gideonw/*"
 GONOSUMDB="github.com/zenful-ai/*|github.com/gideonw/*"
 GONOPROXY="github.com/zenful-ai/*|github.com/gideonw/*"
 
+export GH_TOKEN=$(gh auth token)
+
 source <(fzf --zsh)
